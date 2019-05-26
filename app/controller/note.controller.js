@@ -20,5 +20,9 @@ exports.create = (req, res) => {
     }).then(note => {
         // Send created note to client
         res.send(note);
+    }).catch(error => {
+        console.log('the instance was invalid!');
+        res.sendStatus(400);
     });
+
 };
