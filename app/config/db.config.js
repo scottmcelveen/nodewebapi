@@ -20,6 +20,5 @@ db.sequelize = sequelize;
  
 //Models/tables
 db.notes = require('../model/note.model.js')(sequelize, Sequelize);
- 
-sequelize.sync(); 
+
 module.exports = db;
