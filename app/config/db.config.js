@@ -11,7 +11,8 @@ const sequelize = new Sequelize(env.database, env.username, env.password, {
     idle: env.pool.idle
   }
 });
- 
+
+
 const db = {};
  
 db.Sequelize = Sequelize;
@@ -20,5 +21,5 @@ db.sequelize = sequelize;
 //Models/tables
 db.notes = require('../model/note.model.js')(sequelize, Sequelize);
  
- 
+sequelize.sync(); 
 module.exports = db;
