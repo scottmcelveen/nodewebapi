@@ -1,0 +1,25 @@
+{
+  "name": "nodewebapi",
+  "version": "1.0.0",
+  "description": "A sample nodejs web api with restify",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmcelveen/nodewebapi.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "api",
+    "testing"
+  ],
+  "author": "Scott McElveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottmcelveen/nodewebapi/issues"
+  },
+  "homepage": "https://github.com/scottmcelveen/nodewebapi#readme"
+}
